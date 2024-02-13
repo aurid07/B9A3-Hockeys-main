@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+<style>
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  </style>
+</head>
+<body>
+   
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a class="text-red-400">home</a></li>
+                <li><a>about</a></li>
+                <li><a>pages</a></li>
+                
+
+                <li><a>blog</a></li>
+              <li><a>contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl text-red-400">hocky's</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-red-400">home</a></li>
+            <li><a>about</a></li>
+            <li><a>pages</a></li>
+            
+
+            <li><a>blog</a></li>
+          <li><a>contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-red-600 text-white">get ticket</a>
+        </div>
+      </div>
+
+    <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/3.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/4.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center padding px-10 py-10"><p class="protest-strike-regular">professional hocky's club</p>
+    <p>get admitted fast to get 20 percent discount</p></div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2" >
+    <div style="background-image: url(Images/2.png); height: 300px; width: 400px; margin-right: 40px;" class="text-center "> 
+        <p class="text-5xl text-white">junior programme </p>
+        <p class="text-white">200 taka only</p>
+        <button class="text-white bg-red-500">register now</button>
+    </div>
+        <div style="background-image: url(Images/3.png); height: 300px; width: 400px;" class="text-center  "> 
+            <p class="text-5xl text-white">teenage programme </p>
+            <p class="text-white">400 taka only</p>
+            <button class="text-white bg-red-500">register now</button>
+        
+        </div>
+            <div class="grid">
+                <div class="bg-[url('Images/4.png')] h-[300px] w-[300px] lg:h-[400px] lg:w-[700px] mr-[40px] bg-cover bg-center text-center ">
+                    <p class="text-5xl text-white">proffesional programme</p>
+                    <p class="text-white">500 taka only</p>
+                    <button class="text-white bg-red-500">register now</button>
+                </div>
+            </div>
+            
+
+
+</body>
+</html>
